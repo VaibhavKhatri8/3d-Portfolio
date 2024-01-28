@@ -15,15 +15,15 @@ const About = () => {
         Hello, I'm{" "}
         <span className="blue-gradient_text font-semibold drop-shadow">
           {" "}
-          Adrian
+          Vaibhav
         </span>{" "}
         👋
       </h1>
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+          Software developer based in India, specializing in frontend
+          development hands-on learning and building applications.
         </p>
       </div>
 
@@ -50,8 +50,9 @@ const About = () => {
         <h3 className="subhead-text">Work Experience.</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+            Throughout my journey, I've pursued knowledge and implementation of
+            cutting-edge technologies for my projects, demonstrating a constant
+            eagerness to learn and innovate. Here's the rundown:
           </p>
         </div>
 
@@ -63,12 +64,12 @@ const About = () => {
                 date={experience.date}
                 iconStyle={{ background: experience.iconBg }}
                 icon={
-                  <div className="flex justify-center items-center w-full h-full">
-                    <img
+                  <div className="flex justify-center items-center w-full h-full ">
+                    {/* <img
                       src={experience.icon}
                       alt={experience.company_name}
                       className="w-[60%] h-[60%] object-contain"
-                    />
+                    /> */}
                   </div>
                 }
                 contentStyle={{
